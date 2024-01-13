@@ -1,10 +1,10 @@
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1980px) {
     .imgsize{
 
         width: 370px;
         height: 469px;
-    }
+    };
 
 }
 
@@ -15,7 +15,7 @@
 
     width: 290px;
     height: 359px;
-}
+};
 
 
 }
@@ -26,13 +26,13 @@
 .imgsize{
     width: 324px;
     height: 368px;
-}
+};
 
 .imgsize2{
 
     width: 350px !important;
     height: 409px !important;
-} 
+};
 
 }
 
@@ -43,7 +43,15 @@
 
         width: 320px;
         height: 390px;
+    };
+
+    .mobile_menu.slicknav_menu.slicknav_btn  {
+        top: -5px;
     }
+
+    .logoimg{
+        width: 65% !important;
+    };
  
 }
  
