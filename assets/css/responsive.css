@@ -1,12 +1,21 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+    .imgsize{
 
+        width: 370px;
+        height: 469px;
+    }
 
 }
 
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+.imgsize{
+
+    width: 290px;
+    height: 359px;
+}
 
 
 }
@@ -14,14 +23,27 @@
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+.imgsize{
+    width: 324px;
+    height: 368px;
+}
 
+.imgsize2{
+
+    width: 350px !important;
+    height: 409px !important;
+} 
 
 }
 
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    .imgsize{
 
+        width: 320px;
+        height: 390px;
+    }
  
 }
  
@@ -29,4 +51,5 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
  
+
 }
